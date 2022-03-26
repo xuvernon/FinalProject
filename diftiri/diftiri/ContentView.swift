@@ -13,9 +13,9 @@ struct ContentView: View {
       VStack{
           ZStack{
            Color(.gray)
-              ignoresSafeArea()
+            .ignoresSafeArea()
               
-              HStack{
+//              HStack{
 //                  NavigationView{
 //List( Note, id: \.self){i
 //                           in
@@ -29,7 +29,7 @@ struct ContentView: View {
 //                      }
 //
 //                  }
-              }
+//              }
               
           }
     

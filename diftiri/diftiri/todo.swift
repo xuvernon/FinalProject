@@ -8,14 +8,51 @@
 import SwiftUI
 struct todo: View {
     @State var note = ""
+
+       
     var body: some View {
         VStack{
             TextField("Page Title", text: $note)
                 .frame(width: 250, height: 100, alignment: .center)
                 .ignoresSafeArea()
+            Spacer()
+        
+            HStack{
+            Image(systemName:"checkmark.square")
+                    .frame(width: 30, height: 30, alignment: .center)
+                
+            TextField("task", text: $note)
+                    
+            .frame(width: 350, height: 50, alignment: .center)
+                    .ignoresSafeArea()
+            }
+          
+            HStack{
+            Image(systemName:"checkmark.square")
+                    .frame(width: 30, height: 30, alignment: .center)
+            .onTapGesture {
+//                if (){}
+            }
+                
+            TextField("task", text: $note)
+                    
+            .frame(width: 350, height: 50, alignment: .center)
+                    .ignoresSafeArea()
+            }
+            HStack{
+            Image(systemName:"checkmark.square")
+                    .frame(width: 30, height: 30, alignment: .center)
+                
+            TextField("task", text: $note)
+                    
+            .frame(width: 350, height: 50, alignment: .center)
+                    .ignoresSafeArea()
+            }
+            Spacer()
+        }
+         
         }
     }
-}
 
 struct todo_Previews: PreviewProvider {
     static var previews: some View {
