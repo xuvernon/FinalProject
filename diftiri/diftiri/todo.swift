@@ -9,11 +9,12 @@ import SwiftUI
 struct todo: View {
     @State var note = ""
     
-    @State var Task = false
+    @State var Task: Bool
        
     var body: some View {
     
         VStack{
+            Spacer()
             TextField("Page Title", text: $note)
                 .frame(width: 250, height: 100, alignment: .center)
                 .ignoresSafeArea()
@@ -22,9 +23,14 @@ struct todo: View {
             HStack{
             Image(systemName:"checkmark.square")
                     .frame(width: 30, height: 30, alignment: .center)
-    .onTapGesture {
-               Task.toggle()
-            print(Task)
+    .onTapGesture{
+      Task.toggle()
+        if(Task == false){
+          print( Image(systemName:"checkmark.square.fill"))
+            
+        }
+        else{
+            print(Image(systemName:"checkmark.square")) }
                     }
             TextField("task", text: $note)
                     
@@ -63,6 +69,6 @@ struct todo: View {
 
 struct todo_Previews: PreviewProvider {
     static var previews: some View {
-        todo()
+        todo( Task: false)
     }
 }

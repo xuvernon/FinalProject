@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA0C040127EF3D0B00C3501F /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C040027EF3D0B00C3501F /* todo.swift */; };
+		FA6CE51B27F35B0E0096463E /* codes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6CE51A27F35B0E0096463E /* codes.swift */; };
 		FAA50CC427ECD69200A03721 /* diftiriApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA50CC327ECD69200A03721 /* diftiriApp.swift */; };
 		FAA50CC627ECD69200A03721 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA50CC527ECD69200A03721 /* ContentView.swift */; };
 		FAA50CC827ECD69A00A03721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA50CC727ECD69A00A03721 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		FA0C040027EF3D0B00C3501F /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
+		FA6CE51A27F35B0E0096463E /* codes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codes.swift; sourceTree = "<group>"; };
 		FAA50CC027ECD69200A03721 /* diftiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diftiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA50CC327ECD69200A03721 /* diftiriApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diftiriApp.swift; sourceTree = "<group>"; };
 		FAA50CC527ECD69200A03721 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				FAA50CC327ECD69200A03721 /* diftiriApp.swift */,
 				FAA50CC527ECD69200A03721 /* ContentView.swift */,
 				FA0C040027EF3D0B00C3501F /* todo.swift */,
+				FA6CE51A27F35B0E0096463E /* codes.swift */,
 				FAA50CC727ECD69A00A03721 /* Assets.xcassets */,
 				FAA50CC927ECD69A00A03721 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6CE51B27F35B0E0096463E /* codes.swift in Sources */,
 				FAA50CC627ECD69200A03721 /* ContentView.swift in Sources */,
 				FAA50CC427ECD69200A03721 /* diftiriApp.swift in Sources */,
 				FA0C040127EF3D0B00C3501F /* todo.swift in Sources */,

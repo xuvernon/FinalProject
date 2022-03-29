@@ -6,34 +6,24 @@
 //
 
 import SwiftUI
- var Note = ""
 struct ContentView: View {
     
     var body: some View {
       VStack{
           ZStack{
-           Color(.gray)
+           Color(.white)
             .ignoresSafeArea()
               
-//              HStack{
-//                  NavigationView{
-//List( Note, id: \.self){i
-//                           in
-//    NavigationLink(destination: todo() ){
-//        HStack{
-//            padding()
-//        }
-//    }
-//
-//
-//                      }
-//
-//                  }
-//              }
-              
-          }
-    
 
+              NavigationView{
+              NavigationLink(destination: todo( Task: false)){
+         
+                  Text("Go To List")
+                  
+          }
+              .navigationTitle("to do list")
+          }
+          }
               
          }
         }
