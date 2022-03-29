@@ -6,3 +6,8 @@
 //
 
 import Foundation
+struct todolist:Identifiable {
+    var checklist: Bool
+    var text: String
+    var id = UUID()
+}
