@@ -9,42 +9,58 @@ import SwiftUI
 struct ContentView: View {
     @State var nn = ""
     var body: some View {
-      VStack{
-          ZStack{
-              Color(.white)
-            .ignoresSafeArea()
-//              VStack{
-//                  HStack{
-//                      Image("page")
-//                .frame(width: 100, height: 100, alignment: .top)
-//
-//                    Image("page")
-//                  }
-//              VStack{
-//              HStack{
-              NavigationView{
-              NavigationLink(destination: todo( Task: false)){
-                
-                  Text("go to list")
-//
-//                      Image("page")
-//                .frame(width: 150, height: 150, alignment: .top)
+        VStack{
+            ZStack{
+                Color(.white)
+              .ignoresSafeArea()
 
-          }
-              .navigationTitle("    دفتري  ")
-          }
-//                      Spacer()
-//            Image("page")
-//            .frame(width: 150, height: 150, alignment: .top)
-//
-//
-//              }
-//          }
-//              Spacer()
-          }
-         }
-        }
-}
+               
+                VStack{
+                    HStack{
+                        
+                NavigationView{
+                NavigationLink(destination: todo( Task: false)){
+                    
+                    VStack{
+                        HStack{
+                            Image("page")
+                            Image("page")
+                        }
+                    
+                    HStack{
+                        Image("page")
+                        Image("page")
+                    }
+                        
+                    }
+                }
+                    .navigationTitle("    دفتري  ")
+             
+                                }
+    
+              
+                        }
+                    TextField("Page Name:", text: $nn)
+                    
+                 
+                    }
+                    
+                }
+             
+            }
+                    
+                }
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+     
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

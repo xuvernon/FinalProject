@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct todo: View {
-    @State var arrytask = [todolist(checklist: false, text: "first task"),
-    todolist(checklist: true, text: "secound task")]
+    @State var arrytask = [
+        
+    todolist(checklist: false, text: "first task"),
+    todolist(checklist: false, text: "secound task"),
+    todolist(checklist: false, text: "third task"),
+    todolist(checklist: false, text: "fourth task"),
+    todolist(checklist: false, text: "fifth task"),
+    todolist(checklist: false, text: "sixth task")
+    ]
     @State var note = ""
     @State var Task: Bool
     @State var temprarytask = ""
@@ -21,74 +28,142 @@ struct todo: View {
                 .frame(width: 250, height: 100, alignment: .center)
                 .ignoresSafeArea()
 
-            List(arrytask, id: \.id){ i in
+            List{
             HStack{
-                if(i.checklist == false){
+                if(arrytask[0].checklist == false){
                  Image(systemName:"checkmark.square")
                         .frame(width: 30, height: 30, alignment: .center)
                         .onTapGesture{
-//                    i.checklist.toggle()
+                        arrytask[0].checklist.toggle()
+                 
                                         }
                 }
                 else{
                     Image(systemName:"checkmark.square.fill")
                     .frame(width: 30, height: 30, alignment: .center)
                     .onTapGesture{
-//                       i.checklist.toggle()
+                       arrytask[0].checklist.toggle()
                                     }
                 }
               
   
                
-//                TextField("task", text: i.text)
-                    
-//            .frame(width: 350, height: 50, alignment: .center)
-//                    .ignoresSafeArea()
+                TextField("task", text: $arrytask[0].text)
+            .frame(width: 350, height: 50, alignment: .center)
+                    .ignoresSafeArea()
             }
            
+                HStack{
+                    if(arrytask[1].checklist == false){
+                     Image(systemName:"checkmark.square")
+                            .frame(width: 30, height: 30, alignment: .center)
+                            .onTapGesture{
+                            arrytask[1].checklist.toggle()
+                     
+                                            }
+                    }
+                    else{
+                        Image(systemName:"checkmark.square.fill")
+                        .frame(width: 30, height: 30, alignment: .center)
+                        .onTapGesture{
+                           arrytask[1].checklist.toggle()
+                                        }
+                    }
+                  
+      
+                   
+                    TextField("task", text: $arrytask[1].text)
+                .frame(width: 350, height: 50, alignment: .center)
+                        .ignoresSafeArea()
+                }
                 
-            
-//            HStack{
-//            Image(systemName:"checkmark.square")
-//                    .frame(width: 30, height: 30, alignment: .center)
-//
-//            TextField("task", text: $note)
-//
-//            .frame(width: 350, height: 50, alignment: .center)
-//                    .ignoresSafeArea()
-//            }
-//            HStack{
-//            Image(systemName:"checkmark.square")
-//                    .frame(width: 30, height: 30, alignment: .center)
-//
-//            TextField("task", text: $note)
-//
-//            .frame(width: 350, height: 50, alignment: .center)
-//                    .ignoresSafeArea()
-//            }
-              
+                     HStack{
+                         if(arrytask[2].checklist == false){
+                          Image(systemName:"checkmark.square")
+                                 .frame(width: 30, height: 30, alignment: .center)
+                                 .onTapGesture{
+                                 arrytask[2].checklist.toggle()
+                          
+                                                 }
+                         }
+                         else{
+                             Image(systemName:"checkmark.square.fill")
+                             .frame(width: 30, height: 30, alignment: .center)
+                             .onTapGesture{
+                                arrytask[2].checklist.toggle()
+                                             }
+                         }
+                       
+           
+                        
+                         TextField("task", text: $arrytask[2].text)
+                     .frame(width: 350, height: 50, alignment: .center)
+                             .ignoresSafeArea()
+                     }
+                
+                     HStack{
+                         if(arrytask[3].checklist == false){
+                          Image(systemName:"checkmark.square")
+                                 .frame(width: 30, height: 30, alignment: .center)
+                                 .onTapGesture{
+                                 arrytask[3].checklist.toggle()
+                          
+                                                 }
+                         }
+                         else{
+                             Image(systemName:"checkmark.square.fill")
+                             .frame(width: 30, height: 30, alignment: .center)
+                             .onTapGesture{
+                                arrytask[3].checklist.toggle()
+                                             }
+                         }
+                       
+           
+                        
+                         TextField("task", text: $arrytask[4].text)
+                     .frame(width: 350, height: 50, alignment: .center)
+                             .ignoresSafeArea()
+                     }
+                
+                     HStack{
+                         if(arrytask[5].checklist == false){
+                          Image(systemName:"checkmark.square")
+                                 .frame(width: 30, height: 30, alignment: .center)
+                                 .onTapGesture{
+                                 arrytask[5].checklist.toggle()
+                          
+                                                 }
+                         }
+                         else{
+                             Image(systemName:"checkmark.square.fill")
+                             .frame(width: 30, height: 30, alignment: .center)
+                             .onTapGesture{
+                                arrytask[5].checklist.toggle()
+                                             }
+                         }
+                       
+           
+                        
+                         TextField("task", text: $arrytask[5].text)
+                     .frame(width: 350, height: 50, alignment: .center)
+                             .ignoresSafeArea()
+                     }
+                
             Spacer()
                 
                 
             }
-            HStack{
-            Image(systemName: "plus.square.on.square")
-                    .onTapGesture{
-        arrytask.append(todolist(checklist: false, text: temprarytask))
-                        
-                    }
-                
-                TextField("add", text: $temprarytask)
+            TextField("Notes:", text: $temprarytask)
+            
 
             }
-            TextField("Notes:", text: $note)
                 
                
         }
 
         }
          
-        }
+        
 
 
 struct todo_Previews: PreviewProvider {
