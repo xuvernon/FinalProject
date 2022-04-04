@@ -19,12 +19,13 @@ struct todo: View {
     ]
     @State var note = ""
     @State var Task: Bool
-    @State var temprarytask = ""
+    @Binding var n : String
     var body: some View {
     
         VStack{
+      
             Spacer()
-            TextField("Page Title", text: $note)
+            TextField("Page Title", text: $n)
                 .frame(width: 250, height: 100, alignment: .center)
                 .ignoresSafeArea()
 
@@ -153,7 +154,7 @@ struct todo: View {
                 
                 
             }
-            TextField("Notes:", text: $temprarytask)
+            TextField("Notes:", text: $note)
             
 
             }
@@ -166,8 +167,8 @@ struct todo: View {
         
 
 
-struct todo_Previews: PreviewProvider {
-    static var previews: some View {
-        todo( Task: false)
-    }
-}
+//struct todo_Previews: PreviewProvider {
+//    static var previews: some View {
+//        todo( Task: false, n: constant."mmm")
+//    }
+//}

@@ -7,59 +7,83 @@
 
 import SwiftUI
 struct ContentView: View {
-    @State var nn = ""
+    @State var n1 = ""
+    @State var n2 = ""
+    @State var n3 = ""
+    @State var n4 = ""
     var body: some View {
-        VStack{
+        NavigationView{
+       
             ZStack{
                 Color(.white)
               .ignoresSafeArea()
 
-               
                 VStack{
-                    HStack{
-                        
-                NavigationView{
-                NavigationLink(destination: todo( Task: false)){
-                    
+                HStack{
                     VStack{
-                        HStack{
-                            Image("page")
-                            Image("page")
-                        }
+                NavigationLink(destination: todo( Task: false, n: $n1)){
                     
-                    HStack{
-                        Image("page")
-                        Image("page")
-                    }
+                   
+                            Image("page")
+                    
+                }
+                    TextField("page title", text: $n1)
+                            .padding()
+                        .frame(width: 100)
+                }
                         
-                    }
+                    VStack{
+                NavigationLink(destination: todo( Task: false, n: $n1)){
+                    
+                   
+                            Image("page")
+                    
                 }
-                    .navigationTitle("    دفتري  ")
-             
+                    TextField("page title", text: $n2)
+                            .padding()
+                        .frame(width: 100)
+                }
+                }
+                    HStack{
+                    VStack{
+                NavigationLink(destination: todo( Task: false, n: $n1)){
+                    
+                   
+                            Image("page")
+                    
+                }
+                    TextField("page title", text: $n3)
+                            .padding()
+                        .frame(width: 100)
+                }
+                    VStack{
+                NavigationLink(destination: todo( Task: false, n: $n1)){
+                    
+                   
+                            Image("page")
+                    
+                }
+                    TextField("page title", text: $n4)
+                            .padding()
+                        .frame(width: 100)
+                }
+                    }
                                 }
-    
-              
-                        }
-                    TextField("Page Name:", text: $nn)
-                    
-                 
-                    }
-                    
+                
+                                   }
+            .navigationTitle("    دفتري  ")
                 }
+        
              
-            }
-                    
-                }
+            
+        
+    }
+        
+        
+        
+    }
                 
-                
-                
-                
-                
-                
-                
-                
-                
-            }
+            
      
 
 struct ContentView_Previews: PreviewProvider {
