@@ -49,6 +49,7 @@ struct ContentView: View {
                 NavigationLink(destination: todo( Task: false, n: $n1)){
                     
                    
+                    
                             Image("page")
                     
                 }
