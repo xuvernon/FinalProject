@@ -84,7 +84,7 @@ body{
 
  .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -109,12 +109,7 @@ body{
     border-radius: 10px;
   
 }
-.box img{
-    
-    width:500px;
-    height: 450px;
-    border-radius: 10px;
-}
+
 .center{
     text-align: center;
 }
@@ -143,7 +138,11 @@ body{
 .sidenav a:hover {
   color: #3D550C;
 }
-
+.sidenav h1{
+  padding: 6px 8px 0px 16px;
+  font-size: 35px;
+ 
+}
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -345,4 +344,21 @@ font-size: 50px;
   padding-left: 20px;
  
 } 
+.rating{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.rating h5{
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 10px;
+}
 
+.rating i{
+  margin-top: 10px;
+  margin-bottom: 35px;
+  margin-left: 5px;
+  font-size: 15px;
+}

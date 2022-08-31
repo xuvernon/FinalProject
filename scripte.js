@@ -16,10 +16,12 @@ for (i = 0; i < dropdown.length; i++) {
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.backgroundColor = "#00000073";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.backgroundColor = "";
 }
 
 
@@ -44,7 +46,7 @@ infocard1.forEach(x => {
     <div class="flip-card-inner">
     <div class="flip-card-front">
         <div class="box"> 
-        <img src="${x.img}" alt="${x.title}">
+        <img src="${x.img}" alt="${x.title}" width="500px" height= "450px" border-radius="10px">
          <h1>${x.title}</h1>
        </div>
     </div>
@@ -62,7 +64,7 @@ infocard2.forEach(x => {
     <div class="flip-card-inner">
     <div class="flip-card-front">
         <div class="box"> 
-        <img src="${x.img}" alt="${x.title}">
+        <img src="${x.img}" alt="${x.title}" width="500px" height= "450px" border-radius="10px">
          <h1>${x.title}</h1>
        </div>
     </div>
