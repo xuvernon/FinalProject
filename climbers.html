@@ -12,6 +12,7 @@
     <link rel="icon" href="./picturs/mainicon.png">
     <link  href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body id="top">
     <div class="header" >
@@ -22,29 +23,18 @@
        <h2>Little Leaf</h2>
       </div>
      </div>
+     <div class="container">
+
+        <img src="./picturs/climbers.jpg" width="50%" data-aos="fade-down-right" class="centered-img">
+        <img src="./picturs/climbers.jpg"  width="50%" data-aos="fade-down-left" class="centered-img">
+        <img src="./picturs/climbers.jpg"  width="50%" data-aos="fade-up-right" class="centered-img">
+        <img src="./picturs/climbers.jpg"  width="50%" data-aos="fade-up-left" class="centered-img">
+    </div>
+    <br>
 
 <div class="container">
-
-
-  <!-- <a href="http://"> <div class="box">
-        <img src="./picturs/WisteriaBlackDragon.webp" alt="Wisteria Black Dragon" width="500px" height= "350px" border-radius="10px">
-        <h2>Wisteria Black Dragon</h2>
-        <div class="rating">
-        <h5>easiness:<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></h5></div>
-    </div> 
-</a>
-<a href="http://"><div class="box">
-        <img src="./picturs/honeysucklevine.jpg" alt="honeysuckle vine" width="500px" height= "350px" border-radius="10px">
-        <h2>Honeysuckle vine</h2>
-        <div class="rating">
-        <h5>easiness:<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i>
-       </h5>
-    </div>
-    </div></a> -->
-    
-
     <a href="">
-        <div class="flip-card">
+        <div class="flip-card" data-aos="fade-right">
             <div class="flip-card-inner">
             <div class="flip-card-front">
                 <div class="box">
@@ -61,7 +51,7 @@
             </div>       
             </div></a> 
         <a href="">
-            <div class="flip-card">
+            <div class="flip-card" data-aos="fade-left">
                 <div class="flip-card-inner">
                 <div class="flip-card-front">
                     <div class="box">
@@ -83,11 +73,15 @@
 
     <div class="footer">
                 <div class="center">
-                  <a href="./newsletter.html" target="_blank">Subscribe To Our Newsletter!</a>
-                  <a href="#top"><i class="bi bi-caret-up-fill"></i>Top Of The Page</a>
+                    <a href="#top"><i class="bi bi-caret-up-fill"></i>Top Of The Page</a>
+                    <a href="./newsletter.html" target="_blank">Subscribe To Our Newsletter!</a>
                   <a href="./main.html">Go To The Main Page</a>
               </div>
           </div>
-      </div>       
+      </div>    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>   
 </body>
 </html>

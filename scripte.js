@@ -42,7 +42,7 @@ let infocards2 = document.getElementById(`infocards2`)
 
 infocard1.forEach(x => {
   infocards1.innerHTML += `<a href="./${x.page}.html">
-<div class="flip-card">
+<div class="flip-card" data-aos="fade-left">
     <div class="flip-card-inner">
     <div class="flip-card-front">
         <div class="box"> 
@@ -60,7 +60,7 @@ infocard1.forEach(x => {
 
 infocard2.forEach(x => {
   infocards2.innerHTML += `<a href="./${x.title}.html">
-<div class="flip-card">
+<div class="flip-card" data-aos="fade-right">
     <div class="flip-card-inner">
     <div class="flip-card-front">
         <div class="box"> 

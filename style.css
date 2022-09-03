@@ -2,7 +2,7 @@ body{
     color: white;
     background-color: #f9ffc4;
     scroll-behavior: smooth;
-    margin: 0px;
+    margin: 0%;
     font-family: 'Mouse Memoirs', sans-serif;
     animation-name: opacity;
     animation-duration: 2s;
@@ -271,7 +271,6 @@ body{
     top: 55%;
     left: 44%;
     transform: translate(-50%, -50%);
-      color: white;
     font-weight: bolder;
      margin-top: 100px;
      font-size:x-large;
@@ -361,4 +360,21 @@ font-size: 50px;
   margin-bottom: 35px;
   margin-left: 5px;
   font-size: 15px;
+}
+.img-text-summery{
+  position: absolute;
+  top: 47.5%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+   margin-top: 100px;
+   font-size:x-large;
+   animation-name: oomove;
+   animation-duration: 1.5s;  
+  animation-fill-mode: forwards;
+  color: #3D550C;
+}
+@keyframes oomove {
+  from {left: 0px;}
+  to {left: 720px;}
 }
