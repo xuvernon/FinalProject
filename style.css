@@ -6,7 +6,6 @@ body{
     font-family: 'Mouse Memoirs', sans-serif;
     animation-name: opacity;
     animation-duration: 2s;
-    height: 100vh;
   }
   
   @keyframes opacity {
@@ -91,6 +90,7 @@ body{
     flex-wrap: wrap;
     height: 100vh;
     padding: 0px;
+    margin-top: 15px;
 
  }
  .container a{
@@ -383,9 +383,23 @@ font-size: 50px;
   from {left: 0px;}
   to {left: 720px;}
 }
+.containerinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 170vh;
+  padding: 0px;
+  margin-top: 15px;
+
+}
+.containerinfo a{
+  text-decoration: none;
+}
 .infobox{
 width: 80%;
-height: 800px;
+height: fit-content;
 background-color:#81B622;
 color: white;
 padding: 10px;
@@ -394,4 +408,7 @@ display:flex;
 align-items: center;
 flex-direction: column;
 border-radius: 10px;
+margin: 15px;
+font-size: 25px;
 }
+
