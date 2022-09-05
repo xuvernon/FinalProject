@@ -427,12 +427,6 @@ font-size: 25px;
   color: black;
 }
 
-.searchbar{
-  display: flex;
-  align-items: center;
- margin-left: 1000px;
- margin-top: 35px;
-}
 .btn{
   width: 150px;
   height: 50px;
