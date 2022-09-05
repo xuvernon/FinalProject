@@ -186,10 +186,6 @@ body{
     font-family: 'Mouse Memoirs', sans-serif;
    }
  
-  .active {
-    background-color: #3D550C;
-    color: white;
-  }
   
   .dropdown-container {
     display: none;
@@ -412,3 +408,84 @@ margin: 15px;
 font-size: 25px;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #59981A;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #3D550C;
+  color: black;
+}
+
+.searchbar{
+  display: flex;
+  align-items: center;
+ margin-left: 1000px;
+ margin-top: 35px;
+}
+.btn{
+  width: 150px;
+  height: 50px;
+  background-color: #3D550C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: 'Mouse Memoirs', sans-serif;
+  transition: 0.3s ease-in-out;
+  margin-top:40px;
+  margin-bottom: 20px;
+}
+.btn:hover{
+  background-color: #3D550C;
+  color: white;
+}
+.products{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 150vh;
+  padding: 0px;
+  margin-top: 15px;
+
+}
+
+.products a{
+  text-decoration: none;
+}
+.h2{
+  font-size: 35px;
+  color: #3D550C;
+  text-align: center;
+}
+.productsbox{
+  width: 500px;
+  height: 460px;
+  background-color:#81B622;
+  color: white;
+  padding: 10px;
+  box-shadow: 0px 10px 5px #202020a5;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+
+}
+.productsbox h3{
+  font-size: 30px;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
