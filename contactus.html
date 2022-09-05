@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Mouse+Memoirs&family=Nunito&family=Oswald:wght@200&family=Playfair+Display:wght@500&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Us</title>
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      <link rel="icon" href="./picturs/mainicon.png">
+      </head>
+      
+<body>
+    
+
+    <div class="header" id="top">
+        <div class="right">
+        <img src="./picturs/sh.png" alt="logo" width="50px"> 
+        </div>
+    <div class="left">
+       <h2>Little Leaf</h2>
+      </div>
+            </div>
+
+    <div class="container">
+        <div class="newsletterbox">
+
+          <form action="https://formsubmit.co/sara0moha78@gmail.com" method="POST">
+            <h1>Make Little leaf Better! </h1>
+            <img src="./picturs/sh.png" width="60px">
+          <h3 style="font-size: 22px;">Here at Little leaf we always want to improve our website and make it as helpful as possible! so please for any new suggestions contact us here. <br>
+            If you have any questions please contact us on email: littleleaf@gmail.com or DM us on any of our platforms @littleleaf.kw
+            </h3>
+        
+            <label class="label" for="name">NAME:</label>
+            <input type="text" name="name" placeholder="Enter Your Full Name" class="input" required>
+            <br>
+            <label class="label" for="email">EMAIL:</label>
+            <input type="email" name="email"  placeholder="Enter Your Email" class="input" required>
+        <br>
+        <label class="label" for="suggestions">SUGGESTIONS:</label>
+        <input type="text" name="suggestions"  placeholder="Your suggestions" class="input" required>
+    <br>
+            <button type="submit" id="btn" class="btn hvr-grow">Subscribe</button>
+       
+       </form>
+        </div>
+    </div>
+
+ <div class="footer">
+     
+         
+          <div class="center">
+            <a href="./main.html"><i class="bi bi-caret-left-fill"></i>Go To The Main Page</a>
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById("btn").addEventListener("click", function () {
+            Swal.fire({
+          title: "Thank You For Your Suggestion!",
+          showConfirmButton: true,
+          confirmButtonColor: "#3D550C",
+          color: "#59981A",
+          background: "white",
+          backdrop:"#00000077",
+          imageUrl: "https://c.tenor.com/7Ypq9_9najcAAAAC/thumbs-up-double-thumbs-up.gif",
+          imageWidth: 200,
+          imageHeight: 200,
+        });
+
+});
+AOS.init();
+    </script>
+</body>
+</html>

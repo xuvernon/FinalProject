@@ -77,112 +77,30 @@ infocard2.forEach(x => {
 });
 
 
-let productsseeds = [
-  {name:'Honeysuckle Vine', img:'honeysucklevine.jpg',link:'https://a.co/d/dXnV9xg'},
-  {name:'Aloe Vera', img:'aloevera.jpg',link:'https://a.co/d/cxUzhic"'},
-  {name:'Crocus', img:'crocus.jpg',link:'https://a.co/d/5csgfgU'},
-  {name:'Sunflowers', img:'sunflowr.png',link:'https://a.co/d/6dloxu4' },
-];
+// let productsseeds = [
+//   {name:'Honeysuckle Vine', img:'honeysucklevine.jpg',link:'https://a.co/d/dXnV9xg'},
+//   {name:'Aloe Vera', img:'aloevera.jpg',link:'https://a.co/d/cxUzhic"'},
+//   {name:'Crocus', img:'crocus.jpg',link:'https://a.co/d/5csgfgU'},
+//   {name:'Sunflowers', img:'sunflowr.png',link:'https://a.co/d/6dloxu4' },
+// ];
 
-let seed = document.getElementById(`seeds`);
+// let seed = document.getElementById(`seeds`);
 
-productsseeds.forEach(x => {
+// productsseeds.forEach(x => {
 
-seed.innerHTML +=
-`<div class="productsbox" data-aos="fade-up">
-<h3>${x.name}</h3>
-<img src="./picturs/${x.img}" alt="${x.name}" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">
-<a href="${x.link}" target="_blank">
-<button class="btn hvr-grow">Get It Here</button>
-</a>
-
-
-
-
-</div>`
-
-
-  
-});
-// let productsseeds = document.getElementById(`productsseeds`)
-
-// productsplants.forEach(x => {
-//   productsseeds.innerHTML +=  
-  
-// `
-//  <div class="productsbox" data-aos="fade-up">
+// seed.innerHTML +=
+// `<div class="productsbox" data-aos="fade-up">
 // <h3>${x.name}</h3>
 // <img src="./picturs/${x.img}" alt="${x.name}" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">
 // <a href="${x.link}" target="_blank">
-//       <button class="btn hvr-grow">Get It Here</button>
+// <button class="btn hvr-grow">Get It Here</button>
 // </a>
-// </div>
 
-// `
+
+
+
+// </div>`
+
+
+  
 // });
-
-
-
-
-
-
-
-// </div>
-// <h2 id="2" class="h2">Pots:</h2>
-// <div class="products">
-//     <div class="productsbox" data-aos="fade-up-right">
-//         <h3> White Plastic Pots</h3>
-//         <img src="./picturs/pot1.png" alt="pot" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">          
-//           <a href="https://a.co/d/55jEJlW" target="_blank">
-//               <button class="btn hvr-grow">Get It Here</button>
-//         </a>
-      
-//     </div>
-//      <div class="productsbox" data-aos="fade-up-left">
-//         <h3>Colorful Pots</h3>
-//         <img src="./picturs/pot2.png" alt="Honeysuckle Vine" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">       
-//              <a href="https://a.co/d/aqmKUWl" target="_blank">
-//               <button class="btn hvr-grow">Get It Here</button>
-//         </a>
-      
-//     </div>
-
-// </div>
-// <h2 id="3" class="h2" >Tools:</h2>
-// <div class="products">
-//     <div class="productsbox" data-aos="fade-up-right">
-//         <h3>Garden Tools Set</h3>
-//         <img src="./picturs/tool1.png" alt="Honeysuckle Vine" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">        
-//             <a href="https://a.co/d/0RRTzz2" target="_blank">
-//               <button class="btn hvr-grow">Get It Here</button>
-//         </a>
-      
-//     </div>
-//     <div class="productsbox" data-aos="fade-up-left">
-//         <h3>Colorful Watering Can</h3>
-//         <img src="./picturs/tool2.png" alt="Honeysuckle Vine" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">          
-//           <a href="https://a.co/d/h8yJlH9" target="_blank">
-//               <button class="btn hvr-grow">Get It Here</button>
-//         </a>
-      
-//     </div>
-
-//     <div class="productsbox" data-aos="fade-up-right">
-//         <h3>160 Seed Starter Trays</h3>
-//         <img src="./picturs/tool4.png" alt="Honeysuckle Vine" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">          
-//           <a href="https://a.co/d/6BL4MjO" target="_blank">
-//               <button class="btn hvr-grow">Get It Here</button>
-//         </a>
-      
-//     </div>
-
-//     <div class="productsbox" data-aos="fade-up-left">
-//         <h3>Garden Tools Set</h3>
-//         <img src="./picturs/tool3.png" alt="Honeysuckle Vine" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">          
-//           <a href="https://a.co/d/jdhYvAv" target="_blank">
-//          <button class="btn hvr-grow">Get It Here</button>
-//         </a>
-      
-//     </div>
-
-// </div>

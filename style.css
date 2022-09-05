@@ -16,7 +16,7 @@ body{
   }
   
   @keyframes opacity {
-    from {opacity: 0.1;}
+    from {opacity: 0.3;}
     to {opacity: 1;}
   }
 
@@ -107,7 +107,7 @@ body{
  .box{
     width: 500px;
     height: 460px;
-    background-color:#81B622;
+    background-color:#59981A;
     color: white;
     padding: 10px;
     box-shadow: 0px 10px 5px #202020a5;
@@ -255,7 +255,7 @@ body{
     text-decoration: none;
   }
   .flip-card-back {
-    background-color: #81B622;
+    background-color: #59981A;
     color: white;
     border-radius: 20px;
     transform: rotateY(180deg);
@@ -289,7 +289,7 @@ body{
      margin-top: 100px;
      font-size:x-large;
      animation-name: mymove;
-     animation-duration: 1.5s;  
+     animation-duration: 1s;  
     animation-fill-mode: forwards;
     
   }
@@ -415,7 +415,7 @@ font-size: 30px;
 .infobox{
 width: 50%;
 height: fit-content;
-background-color:#81B622;
+background-color:#59981A;
 color: white;
 padding: 10px;
 box-shadow: 0px 10px 5px #202020a5;
@@ -492,7 +492,7 @@ font-size: 25px;
 .productsbox{
   width: 500px;
   height: 460px;
-  background-color:#81B622;
+  background-color:#59981A;
   color: white;
   padding: 10px;
   box-shadow: 0px 10px 5px #202020a5;
