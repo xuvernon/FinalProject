@@ -3,9 +3,16 @@ body{
     background-color: #f9ffc4;
     scroll-behavior: smooth;
     margin: 0%;
+    font-family: 'Kanit', sans-serif;
     font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     animation-name: opacity;
     animation-duration: 2s;
+    
   }
   
   @keyframes opacity {
@@ -183,7 +190,13 @@ body{
   
 
    .dropdown-btn{
+    font-family: 'Kanit', sans-serif;
     font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
    }
  
   
@@ -316,7 +329,13 @@ font-size: 50px;
   border: none;
   border-radius: 5px;
   font-size: 17px;
+  font-family: 'Kanit', sans-serif;
   font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   transition: 0.3s ease-in-out;
 }
 #newsbtn:hover{
@@ -394,7 +413,7 @@ font-size: 50px;
   text-decoration: none;
 }
 .infobox{
-width: 80%;
+width: 50%;
 height: fit-content;
 background-color:#81B622;
 color: white;
@@ -435,7 +454,13 @@ font-size: 25px;
   border: none;
   border-radius: 5px;
   font-size: 17px;
+  font-family: 'Kanit', sans-serif;
   font-family: 'Mouse Memoirs', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   transition: 0.3s ease-in-out;
   margin-top:40px;
   margin-bottom: 20px;
