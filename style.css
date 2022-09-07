@@ -119,6 +119,7 @@ body{
   
 }
 
+
 .center{
     text-align: center;
 }
@@ -271,7 +272,7 @@ body{
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .cardd{
     display: flex;
