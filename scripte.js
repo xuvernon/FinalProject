@@ -24,8 +24,6 @@ function closeNav() {
   document.getElementById("main").style.backgroundColor = "";
 };
 
-
-
 let infocard1 = [
 {title:'Climbers Plants',img:'./picturs/climbers.jpg',p:'Climbers are plants with long, flexible, climbing stems that are rooted in the ground, and usually have long dangling branches. They are easy to take car of as long as they are cared for and supported. Most climbing plants including vines, ivy and other flowering varieties are very hardy and adaptable. They can be grown in a garden bed, or even in a narrow pot! Some vines are so adaptable that they can be grown without framework or supporting wires. They need full sun to partial shade and any soil conditions is good for them.',page:'climbers'},
 {title:'Bulb Plants',img:'./picturs/bulbs.jpg',p:'The definition of a bulb is any plant that stores its complete life cycle in an underground storage structure,  such as the lily, onion, hyacinth, or tulip. They have a period of growth and flowering. Bulbs are among the easiest group of plants to grow and care for. They can be grown either outdoor or indoor depending on the plant. Most of them do best in full sun (at least 6 hours a day of direct sun) and well-drained soil.',page:'BulbPlants'},
@@ -77,30 +75,3 @@ infocard2.forEach(x => {
 });
 
 
-// let productsseeds = [
-//   {name:'Honeysuckle Vine', img:'honeysucklevine.jpg',link:'https://a.co/d/dXnV9xg'},
-//   {name:'Aloe Vera', img:'aloevera.jpg',link:'https://a.co/d/cxUzhic"'},
-//   {name:'Crocus', img:'crocus.jpg',link:'https://a.co/d/5csgfgU'},
-//   {name:'Sunflowers', img:'sunflowr.png',link:'https://a.co/d/6dloxu4' },
-// ];
-
-// let seed = document.getElementById(`seeds`);
-
-// productsseeds.forEach(x => {
-
-// seed.innerHTML +=
-// `<div class="productsbox" data-aos="fade-up">
-// <h3>${x.name}</h3>
-// <img src="./picturs/${x.img}" alt="${x.name}" width="90%" height="60%" style="border-radius:5px; box-shadow: 0px 8px 7px #20202071;">
-// <a href="${x.link}" target="_blank">
-// <button class="btn hvr-grow">Get It Here</button>
-// </a>
-
-
-
-
-// </div>`
-
-
-  
-// });

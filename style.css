@@ -201,13 +201,18 @@ body{
    }
  
   
-  .dropdown-container {
+  .dropdown-container{
     display: none;
     background-color: #81B622;
     color: #344E41;
-    padding-left: 8px;
   }
-  
+  .dropdown-container a{
+    float: left;
+    padding-left: 8px;
+    font-size: 20px;
+    
+  }
+ 
   .bi-caret-down-fill {
     float: right;
     padding-right: 8px;
@@ -435,12 +440,13 @@ font-size: 17px;
   margin-bottom: 10px;
 }
 
-.topnav {
+#navbar {
   overflow: hidden;
   background-color: #59981A;
+  z-index: 1;
 }
 
-.topnav a {
+#navbar a {
   float: left;
   color: white;
   text-align: center;
@@ -449,13 +455,26 @@ font-size: 17px;
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #3D550C;
+#navbar a:hover {
+  background-color: #81B622;
   color: black;
+}
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 .btn{
-  width: 150px;
+  width: 100px;
   height: 50px;
   background-color: #3D550C;
   color: white;
@@ -470,7 +489,7 @@ font-size: 17px;
   font-family: 'Roboto', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
   transition: 0.3s ease-in-out;
-  margin-top:40px;
+  margin-top:20px;
   margin-bottom: 20px;
 }
 .btn:hover{
@@ -499,7 +518,7 @@ font-size: 17px;
 }
 .productsbox{
   width: 500px;
-  height: 460px;
+  height: 350px;
   background-color:#59981A;
   color: white;
   padding: 10px;
