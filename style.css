@@ -308,7 +308,7 @@ body{
 }
 .newsletterbox{
   width: 600px;
-  height: 700px;
+  height: fit-content;
   background-color:#59981A;
   color: white;
   padding: 10px;
